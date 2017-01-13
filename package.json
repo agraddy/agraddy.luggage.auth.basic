@@ -10,13 +10,17 @@
     "test": "node ./test"
   },
   "repository": {
-	  "type": "git",
-	  "url": "git://github.com/agraddy/agraddy.luggage.auth.basic.git"
+    "type": "git",
+    "url": "git://github.com/agraddy/agraddy.luggage.auth.basic.git"
   },
   "bugs": {
-	  "url": "https://github.com/agraddy/agraddy.luggage.auth.basic/issues"
+    "url": "https://github.com/agraddy/agraddy.luggage.auth.basic/issues"
   },
   "devDependencies": {
-	  "agraddy.test.tap": "^0.3.0"
+    "agraddy.test.tap": "^0.3.0"
+  },
+  "dependencies": {
+    "agraddy.config": "^0.2.0",
+    "agraddy.error.bomb.auth.basic": "^0.3.0"
   }
 }
